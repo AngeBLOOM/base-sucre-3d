@@ -1,0 +1,235 @@
+{
+ "_nota": "Ubicaciones estimadas cruzando fotos, video y foto satelital (este, norte en m desde el punto de referencia de SVBS). La marca es la letra de referencias/mapa_hangares_letras.jpg. rumbo_fachada = hacia dónde mira el frente (grados desde el norte). excluir = radio en m donde se quitan los bloques de OpenStreetMap porque el edificio se modela aparte.",
+ "edificios": {
+  "DIDA": {
+   "marca": "V",
+   "este": -436.4,
+   "norte": -773.6,
+   "rumbo_fachada": 320.7,
+   "excluir": 30,
+   "confianza": "media-alta",
+   "por_que": "edificio blanco de unos 25 m frente a la calle de servicio, justo enfrente del hangar gris H; en el video se ve el hangar gris y enseguida el CEA"
+  },
+  "Hangar frente al DIDA": {
+   "marca": "H",
+   "este": -488.6,
+   "norte": -710.9,
+   "rumbo_fachada": 137.0,
+   "ancho": 52,
+   "fondo": 43,
+   "excluir": 32,
+   "confianza": "media-alta",
+   "medidas": "techo claro medido en el satélite: 52 m a lo largo de la calle x 43 m de fondo; la fachada con portones mira a la calle (sureste)",
+   "por_que": "hangar a dos aguas pegado al CEA, en el orden del video (DIDA, hangar gris, CEA)"
+  },
+  "CEA": {
+   "marca": "G",
+   "este": -418.4,
+   "norte": -655.3,
+   "rumbo_fachada": 131.0,
+   "ancho": 26,
+   "fondo": 58,
+   "excluir": 36,
+   "confianza": "alta",
+   "medidas": "techo verde medido en el satélite: 58 m de largo (perpendicular a la calle) x 24-26 m; el frente curvo con las letras CEA mira a la calle; cobertizo al suroeste",
+   "por_que": "hangar de techo verde con los dormitorios de ladrillo (bloques de techo naranja) justo enfrente, como dicen las fotos"
+  },
+  "Dormitorios frente al CEA": {
+   "este": -364.3,
+   "norte": -706.8,
+   "excluir": 22,
+   "confianza": "alta",
+   "medidas": "dos edificios en H de OpenStreetMap (barras de ~6 m x 27,7 m a rumbo 138°, separadas 4,7 m y unidas por la escalera); se modelan con esas huellas",
+   "por_que": "cuatro bloques paralelos de techo naranja, al otro lado de la calle del CEA"
+  },
+  "Grupo 7 (GRUEVI 7)": {
+   "marca": "Q",
+   "este": -271.9,
+   "norte": -677.8,
+   "rumbo_fachada": 319.4,
+   "ancho": 45,
+   "fondo": 27,
+   "excluir": 26,
+   "confianza": "media",
+   "medidas": "rectángulo de OpenStreetMap de 44,8 x 27 m con el lado largo paralelo a la calle; el frente con el estacionamiento mira al noroeste",
+   "por_que": "edificio grande de dos pisos y techo plano pasando los dormitorios («llegando a Grupo 7»)"
+  },
+  "G14": {
+   "marca": "F",
+   "este": -379.5,
+   "norte": -620.3,
+   "rumbo_fachada": 139.1,
+   "ancho": 42,
+   "fondo": 10,
+   "excluir": 26,
+   "confianza": "media-alta",
+   "medidas": "ella: todo está sobre UNA sola calle (la de la DIDA), a un lado o al otro; el G14 da a esa calle y enfrente está el Grupo 7. Frente largo de 42 m a la calle (sureste, 139°); al lado del CEA, después de un parquecito y una planta eléctrica",
+   "por_que": "edificio largo de techo oscuro azulado entre hangares; G14 tiene techo azul"
+  },
+  "Hangar 3": {
+   "marca": "E",
+   "este": -344.0,
+   "norte": -583.4,
+   "rumbo_fachada": 140.0,
+   "ancho": 42,
+   "fondo": 34,
+   "excluir": 30,
+   "confianza": "baja",
+   "medidas": "techo blanco de 42 x 34 m; el cobertizo de techo rojo (21 x 9 m) va pegado a la cara que da a la calle, 7 m hacia el suroeste del centro, y hay un cobertizo de techo verde oscuro al noreste",
+   "por_que": "vecino de F; las fotos dicen «entre Hangar 3 y G14»"
+  },
+  "Comando y torre": {
+   "marca": "N",
+   "este": -81.0,
+   "norte": -367.8,
+   "rumbo_fachada": 136.0,
+   "ancho": 31,
+   "fondo": 16,
+   "excluir": 26,
+   "confianza": "media",
+   "por_que": "techo rosado de 31 x 16 m al borde de la plataforma, pegado al Grupo 19 («al lado de G19 comando de la base»); la torre tiene que ver la plataforma, así que queda detrás (lado noroeste) y el frente con la plaza mira a la calle"
+  },
+  "Grupo 19": {
+   "marca": "A",
+   "este": -127.4,
+   "norte": -406.8,
+   "rumbo_fachada": 137.0,
+   "ancho": 28,
+   "fondo": 55,
+   "excluir": 34,
+   "confianza": "media",
+   "por_que": "hangar de techo curvo de 55 x 28 m perpendicular a la calle, vecino del Comando; frente curvo hacia la calle como el CEA"
+  },
+  "Bomberos": {
+   "este": -4.25,
+   "norte": -405.25,
+   "rumbo_fachada": 0.0,
+   "ancho": 35.5,
+   "fondo": 13.1,
+   "excluir": 26,
+   "confianza": "media-alta",
+   "por_que": "ella: más allá del Grupo 19. Edificio de techo plano de 35,5 x 13 m (huella OSM con saliente al norte) al este del Comando, rodeado de árboles como en la foto, frente a la calle de rodaje del norte y la pista"
+  },
+  "Combustible": {
+   "este": 4.3,
+   "norte": -331.4,
+   "rumbo_fachada": 136.5,
+   "ancho": 15.7,
+   "fondo": 7.3,
+   "excluir": 14,
+   "confianza": "media",
+   "por_que": "video 2: después de Bomberos, edificio blanco bajo junto a la cerca de la pista, mirando a la calle de concreto; huella OSM de 15,7 x 7,3 m al borde norte de la plataforma, en la calle que va de Bomberos al G19"
+  },
+  "Hangarcito azul": {
+   "este": -10.95,
+   "norte": -468.35,
+   "rumbo_fachada": 270.0,
+   "ancho": 9.5,
+   "fondo": 26.4,
+   "excluir": 16,
+   "confianza": "media",
+   "por_que": "video 2: justo después del Comando y la torre aparece el quonset azul claro con el «21»; huella OSM de 26,4 x 9,5 m detrás (sureste) del Comando"
+  },
+  "Hangar curvo blanco": {
+   "marca": "I",
+   "este": -532.5,
+   "norte": -754.7,
+   "rumbo_fachada": 131.0,
+   "ancho": 34,
+   "fondo": 56,
+   "excluir": 34,
+   "confianza": "media",
+   "por_que": "foto «dida estacionamiento derecho»: al lado del hangar gris, del otro lado del CEA, un hangar de bóveda blanca con el testero azul claro hacia la calle; techo claro de ~56 m en el satélite, perpendicular a la calle como el CEA"
+  },
+  "Academia Técnica": {
+   "este": 942.6,
+   "norte": 12.8,
+   "excluir": 40,
+   "confianza": "media",
+   "fachada": [
+    [
+     940.2,
+     67.8
+    ],
+    [
+     986.1,
+     51.4
+    ]
+   ],
+   "por_que": "ella: va detrás del comedor pero lejos. Conjunto de techos de teja roja en cruz a ~370 m al suroeste del comedor (huella OSM de 3602 m2); la fachada con la marquesina se supone en la cara norte del ala noreste (49 m), que da a la explanada de concreto"
+  },
+  "Comedor": {
+   "este": 1201.3,
+   "norte": 278.0,
+   "rumbo_fachada": 7.3,
+   "ancho": 47.0,
+   "fondo": 34.0,
+   "excluir": 30,
+   "confianza": "media",
+   "por_que": "ella: el comedor «Los Tacariguas» viene a mano derecha después de la entrada. Huella OSM de 47 x 34 m con techo naranja y el estacionamiento grande delante, a ~200 m de la portada; la fachada larga de 47 m (la de la foto) mira al norte, hacia el estacionamiento y la vía que viene de la portada"
+  },
+  "CAA": {
+   "este": 1072.3,
+   "norte": 277.9,
+   "rumbo_fachada": 18.8,
+   "ancho": 36.0,
+   "fondo": 21.0,
+   "excluir": 24,
+   "confianza": "media",
+   "por_que": "ella: «al lado del comedor CAA». Fotos tomadas desde la vía que pasa al norte del comedor, siguiendo hacia el oeste después del tanque de agua: edificio de 2 pisos con estacionamiento delante. Huella OSM de 12 vértices (39 x 27 m) al oeste del comedor; la fachada larga mira al NNE, hacia el estacionamiento gris y la vía"
+  },
+  "Tanque de agua": {
+   "este": 1138.0,
+   "norte": 322.0,
+   "rumbo_fachada": 18.8,
+   "ancho": 14.0,
+   "fondo": 14.0,
+   "confianza": "media",
+   "por_que": "ella: el tanque está al lado del comedor; en el satélite hay una estructura blanca junto a la vía al oeste del comedor"
+  },
+  "Anexo portada": {
+   "este": 1420.1,
+   "norte": 339.1,
+   "excluir": 9,
+   "confianza": "alta",
+   "por_que": "huella OSM del anexo blanco pegado a la portada por dentro (lado +X); lo modela entrada_adentro.py"
+  },
+  "Edificio largo CAA": {
+   "este": 980.7,
+   "norte": 305.9,
+   "rumbo_fachada": 20.1,
+   "ancho": 67.85,
+   "fondo": 12.9,
+   "excluir": 8,
+   "confianza": "alta",
+   "por_que": "ella: «al lado del CAA». Fotos desde la vía: bloque largo de 2 pisos con pilastras y celosía; huella OSM de 68 x 13 m al oeste del CAA, la cara larga mira a la vía (NNE)"
+  },
+  "Lavanderia": {
+   "este": 1030.25,
+   "norte": 259.45,
+   "rumbo_fachada": 20.1,
+   "ancho": 59.1,
+   "fondo": 19.1,
+   "excluir": 20,
+   "confianza": "media",
+   "por_que": "fotos al lado del CAA: techo rojo largo con chimeneas detrás del edificio largo, pared con «LAVANDERÍA SUCRE»; huella OSM en C con el techo rojo al norte y un ala gris al sur"
+  },
+  "Galpon rojo CAA": {
+   "este": 926.3,
+   "norte": 293.0,
+   "rumbo_fachada": 10.0,
+   "ancho": 25.8,
+   "fondo": 23.7,
+   "excluir": 6,
+   "confianza": "media",
+   "por_que": "foto del cruce al lado del CAA: galpón de techo rojo a dos aguas al oeste del edificio largo; huella OSM de 26 x 24 m con techo rojo"
+  }
+ },
+ "sin_ubicar": [
+  "Planta eléctrica de G14",
+  "Hangar abarrotes",
+  "Hangar de peroles",
+  "Hangar de peretos"
+ ],
+ "_pista_sin_ubicar": "Combustible: probablemente cerca de Bomberos, en el extremo noreste de la plataforma (letra O del mapa)."
+}

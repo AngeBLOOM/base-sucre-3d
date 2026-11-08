@@ -1,0 +1,22 @@
+# Escenas de Blender (pesan >100 MB, no caben en GitHub)
+*.blend
+*.blend1
+*.blend@
+
+# Descargables pesados (Poly Haven, fotos y video de referencia, satélite)
+assets/
+referencias/
+datos/sat_*.png
+texturas/*/
+!texturas/logos/
+
+# Renders: solo las carpetas terminadas
+renders/*
+!renders/cliente/
+!renders/hoy_2026-11-05/
+!renders/entrada_2026-11-07/
+!renders/entrada_final/
+renders/*.log
+
+__pycache__/
+*.pyc
