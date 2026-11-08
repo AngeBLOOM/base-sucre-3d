@@ -16,6 +16,7 @@ renders/*
 !renders/hoy_2026-11-05/
 !renders/entrada_2026-11-07/
 !renders/entrada_final/
+!renders/entrada_2K/
 renders/*.log
 
 __pycache__/
